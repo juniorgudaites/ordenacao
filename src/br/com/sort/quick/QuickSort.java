@@ -13,7 +13,6 @@ public class QuickSort {
 
         quickSort(vet, 0, vet.length - 1);
 
-
         System.out.println("\nVetor New");
         printVetor(vet);
     }
