@@ -9,13 +9,13 @@ public class MergeSort {
         int[] vet = randomVetor(10);
 
         System.out.println("Vetor Old");
-        //printVetor(vet);
+        printVetor(vet);
 
         mergeSort(vet, 0,vet.length-1);
 
 
         System.out.println("\nVetor New");
-        //printVetor(vet);
+        printVetor(vet);
     }
 
     public static void mergeSort(int[] vet, int start, int end) {
