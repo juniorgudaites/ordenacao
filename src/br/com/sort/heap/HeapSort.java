@@ -28,7 +28,6 @@ public class HeapSort {
         }
     }
 
-
     private static void createHeap(int[] vet, int length) {
         int start = (length - 2);
         while (start >= 0) {

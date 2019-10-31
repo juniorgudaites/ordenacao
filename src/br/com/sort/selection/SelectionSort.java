@@ -20,10 +20,10 @@ public class SelectionSort {
     }
     
     public static void selectionSort(int vet[]){
-        for (int i = 0; i < vet.length-1; i++) {
+        for (int i = 0; i < vet.length; i++) {
             int min = i;
-            for (int j = i+1; j < vet.length; j++) {
-                if (vet[j]<vet[min]) {
+            for (int j = 0; j < vet.length; j++) {
+                if (vet[j]>vet[min]) {
                     min = j;
                 }
                 int temp = vet[i];
